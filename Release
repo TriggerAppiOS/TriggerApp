@@ -1,0 +1,9 @@
+Origin: TriggerApp
+Label: TriggerApp
+Suite: main
+Version: 1.0
+Codename: AutoBot
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: TriggerApp Repo
+Support: https://triggerapp.net
