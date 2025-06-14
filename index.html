@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TriggerApp Repo</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .repo-card {
+      text-align: center;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+      max-width: 400px;
+      width: 90%;
+    }
+
+    .repo-card img {
+      width: 90px;
+      margin-bottom: 1rem;
+    }
+
+    .repo-card h1 {
+      font-size: 2rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .repo-card p {
+      font-size: 1rem;
+      color: #777;
+      margin-bottom: 1.5rem;
+    }
+
+    .button-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .button-grid a {
+      text-decoration: none;
+      padding: 0.75rem;
+      border-radius: 8px;
+      font-weight: 500;
+      display: block;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .cydia {
+      background: #a87150;
+      color: white;
+    }
+
+    .sileo {
+      background: #1dc2bd;
+      color: white;
+    }
+
+    .zebra {
+      background: white;
+      color: #333;
+      border: 1px solid #ccc;
+    }
+
+    .button-grid a:hover {
+      opacity: 0.9;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="repo-card">
+    <img src="CydiaIcon.png" alt="TriggerApp Icon" />
+    <h1>TriggerApp Repo</h1>
+    <p>Add TriggerApp to your package manager</p>
+
+    <div class="button-grid">
+      <a class="cydia" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.triggerapp.net">Add to Cydia</a>
+      <a class="sileo" href="sileo://source/https://repo.triggerapp.net">Add to Sileo</a>
+      <a class="zebra" href="zbra://sources/add/https://repo.triggerapp.net">Add to Zebra</a>
+    </div>
+  </div>
+
+  <footer>
+    © TriggerApp — All rights reserved.
+  </footer>
+</body>
+</html>
+
